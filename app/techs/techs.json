@@ -1,0 +1,86 @@
+[
+  {
+    "key": "gulp",
+    "title": "UI Youtube",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app1.png?alt=media&token=4a0f1e63-0d30-4ebc-b5c1-6e7ccd23ab31",
+    "text1": "Hobby",
+    "text2": "Just is style like Youtube app."
+  },
+  {
+    "key": "angular1",
+    "title": "WHATLu",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app2.png?alt=media&token=c1e7cd1d-ab9b-4142-8ce0-1bd122bef8b4",
+    "text1": "Hobby, Project",
+    "text2": "It's a kind of app for discovering new friend while you participate in a lot of games to win a prize. Just works in place specify like a Shopping Center."
+  },
+  {
+    "key": "pokect manager",
+    "title": "Pokect Manager",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app3.png?alt=media&token=6167a6c6-d73e-4862-8bd6-b302938e8f65",
+    "text1": "Hobby",
+    "text2": "To register any kind of event when it is necessary pay for something, create a shopping list, compare prices according measurement unit."
+  },
+  {
+    "key": "scss",
+    "title": "Don Perro",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app4.png?alt=media&token=7d950a62-e3a4-4a11-a8be-35042ffa8880",
+    "text1": "Project",
+    "text2": "It is an application for a veterinary clinic, a sales system products for animals, information relevant to their customers is implemented."
+  },
+  {
+    "key": "js",
+    "title": "Vision",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app5.png?alt=media&token=b4ac9f7c-66d3-4137-bb9f-05c547c4df38",
+    "text1": "Project",
+    "text2": "It is an application where customers can access services such as consulting medical history, detect visual problems and turn away instant quotations, visual tests to detect vision problems."
+  },
+  {
+    "key": "eslint",
+    "title": "ThingsFav",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app6.png?alt=media&token=2a861520-f29e-46fc-8143-8bc576c18617",
+    "text1": "Hobby",
+    "text2": "Playing, to create an app to looking for coupons at store that I like them.."
+  },
+  {
+    "key": "karma",
+    "title": "Luyiman",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app7.png?alt=media&token=2eb7c74c-ddc8-455a-82ef-6ee083dee74b",
+    "text1": "Hobby",
+    "text2": "That was the first game for iOS, just is infinity runner that is catching coins and display the points."
+  },
+  {
+    "key": "webpack",
+    "title": "Finding Things",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app8.png?alt=media&token=70e78dc7-0232-41d5-9cb2-ef52d3f72c8f",
+    "text1": "Hobby",
+    "text2": "To share any kind of information about new products, coupons with countdown and allow to create contest to the users."
+  },
+  {
+    "key": "webpack",
+    "title": "Free Apps",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app9.png?alt=media&token=91d10f31-d26a-47c5-8789-b36541543f2d",
+    "text1": "Hobby, Test",
+    "text2": "Playing with Apple Store API to display free apps with their description."
+  },
+  {
+    "key": "webpack",
+    "title": "UI Facebook",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app12.png?alt=media&token=ee6a22fb-5628-4630-b514-32e61b4529fb",
+    "text1": "Hobby",
+    "text2": "Just is style like Facebook app."
+  },
+  {
+    "key": "webpack",
+    "title": "Ping Pong Marker",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app13.png?alt=media&token=aba009e4-c53d-44cc-bf5b-ecc6fc80a8e2",
+    "text1": "Hobby",
+    "text2": "That was the first project to learn Swift, playing with sound too."
+  },
+  {
+    "key": "webpack",
+    "title": "Taxi.ec",
+    "logo": "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app14.png?alt=media&token=ad18dc3f-d3d2-4c1a-9daf-ac0ca653c034",
+    "text1": "Project, UI",
+    "text2": "That was just the UI for a company #freelance"
+  }
+]
