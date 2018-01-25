@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en"  ng-app="portfolio">
 
 <head>
   <meta charset="UTF-8">
@@ -7,19 +7,18 @@
   <!-- Compiled and minified CSS -->
   <meta name="viewport" content="width=device-width">
   <!--Import Google Icon Font-->
+  <script src="js/angular.min.js"></script>
+  <script src="js/portfolioApp.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css'>
   
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/materialize.css">
-
-
 </head>
 
-<body>
+<body ng-controller="PortfolioController as todoList">
 
   <!-- Header Section–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
   <header id="header">
     <div class="main_nav">
       <div class="container">
@@ -38,7 +37,6 @@
     <div class="title">
       <h1 class="heading"> I'm Kevin iOS Developer Work At Codiscos.</h1>
       <h2 class="heading">Medellín, Colombia</h2>
-      <h3 class="heading">I'm working on it!</h3>
       <a class="smoothscroll" href="#about">
         <div class="mouse">
           <div class="wheel"></div>
@@ -57,6 +55,18 @@
   <section id="about">
     <div class="container">
       <div class="row">
+
+          <ul class="unstyled">
+              <li >
+                <label >
+                  <span>{{t.title}}</span>
+                  <span>{{t.description}}</span>
+                  <span>{{t.goolePlay}}</span>
+                  <span>{{t.appStore}}</span>
+                </label>
+              </li>
+            </ul>
+
         <h1>About</h1>
         <div class="block"></div>
         <p>An experienced web developer and mobile app for iOS with a strong interest in project that require both conceptual and analytical thinking. Always eager to learn more trick from anyone-regardless of the industry to improve skill social and technique to undertake innovative ideas like a hobby.</p>
@@ -72,24 +82,24 @@
 
       <div class="block"></div>
 
-      <div class="row">
+      <div class="row" ng-repeat="todo in todoList.todox">
 
-          <div class="four columns"> 
+          <div class="four columns" ng-repeat="t in todo"> 
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/background.jpeg">
+                <img class="activator" src="{{t.image}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Portfolio<i class="material-icons right">more_vert</i></span>
+                <span class="card-title activator grey-text text-darken-4">{{t.title}}<i class="material-icons right">more_vert</i></span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Portfolio<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <span class="card-title grey-text text-darken-4">{{t.title}}<i class="material-icons right">close</i></span>
+                <p>{{t.description}}</p>
               </div>
             </div>
           </div>
 
-          <div class="four columns"> 
+          <!-- <div class="four columns"> 
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="assets/background.jpeg">
@@ -117,60 +127,9 @@
                   <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
               </div>
-            </div>
+            </div> -->
 
         </div>
-
-        <div class="row">
-
-            <div class="four columns"> 
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/background.jpeg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Portfolio<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Portfolio<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="four columns"> 
-                <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/background.jpeg">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Portfolio<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="four columns"> 
-                  <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/background.jpeg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Portfolio<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Portfolio<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                  </div>
-                </div>
-  
-          </div>
-
-      </div>
       
     </div>
   </section>
