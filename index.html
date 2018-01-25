@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/materialize.css">
 </head>
 
-<body ng-controller="PortfolioController as todoList">
+<body ng-controller="PortfolioController as workList">
 
   <!-- Header Section–––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header id="header">
@@ -82,55 +82,23 @@
 
       <div class="block"></div>
 
-      <div class="row" ng-repeat="todo in todoList.todox">
+      <div class="row" ng-repeat="works in workList.works">
 
-          <div class="four columns" ng-repeat="t in todo"> 
+          <div class="four columns" ng-repeat="work in works"> 
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="{{t.image}}">
+                <img class="activator" src="{{work.image}}">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">{{t.title}}<i class="material-icons right">more_vert</i></span>
+                <span class="card-title activator grey-text text-darken-4">{{work.title}}<i class="material-icons right">more_vert</i></span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">{{t.title}}<i class="material-icons right">close</i></span>
-                <p>{{t.description}}</p>
+                <span class="card-title grey-text text-darken-4">{{work.title}}<i class="material-icons right">close</i></span>
+                <p>{{work.description}}</p>
               </div>
             </div>
           </div>
-
-          <!-- <div class="four columns"> 
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/background.jpeg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Portfolio<i class="material-icons right">more_vert</i></span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="four columns"> 
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/background.jpeg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Portfolio<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Portfolio<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-              </div>
-            </div> -->
-
-        </div>
-      
+        </div>      
     </div>
   </section>
 

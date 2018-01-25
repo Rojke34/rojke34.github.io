@@ -1,6 +1,6 @@
 angular.module('portfolio', []).controller('PortfolioController', function() {
-    var todoList = this;
-    todoList.todox = [
+    var workList = this;
+    workList.works = [
       [
         {
           title:'UI Youtube',
