@@ -264,6 +264,7 @@ header {
 @media only screen and (max-height: 700px) {
 	.title h1 {
 		font-size: 40px;
+		line-height: 50px;
 	}
 }
 .title p {
@@ -275,6 +276,7 @@ header {
 @media only screen and (max-width: 500px) {
 	.title h1 {
 		font-size: 35px;
+		line-height: 40px;
 	}
 }
 .title .icon {
