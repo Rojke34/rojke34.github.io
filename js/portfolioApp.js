@@ -40,6 +40,76 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "frelance", color: "blue" },
             { hashtag: "idea", color: "green"}
           ]
+        },
+        {
+          title:'SSBCharacters Ban',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ',
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/ssb41.png?alt=media&token=3dd08355-a99f-44b0-9ad1-037ec3cbfb71"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/ssb42.png?alt=media&token=c460d2d9-561d-46d9-bb2e-99287307fc9b"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/ssb43.png?alt=media&token=ac077182-eab4-4583-8519-ddff9dfe827a"}
+          ],
+          platforms: [
+            { name: "Android", icon: "assets/android_logo.png", url: "www.qwerty.com" },
+            { name: "iOS", icon: "assets/apple_logo.png", url: "www.qwerty.com" },
+            { name: "Web", icon: "assets/html_logo.png", url: "www.qwerty.com" },
+            { name: "Github", icon: "assets/github_logo.png", url: "www.qwerty.com" }
+          ],
+          hashtags: [
+            { hashtag: "idea", color: "red"},
+            { hashtag: "frelance", color: "blue" },
+            { hashtag: "idea", color: "green"}
+          ]
+        }
+      ],
+      [
+        {
+          title:'Don Perro',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ',
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app4.png?alt=media&token=7d950a62-e3a4-4a11-a8be-35042ffa8880"}
+          ],
+          platforms: [
+            { name: "iOS", icon: "assets/apple_logo.png", url: "www.qwerty.com" },
+          ],
+          hashtags: [
+            { hashtag: "idea", color: "red"},
+            { hashtag: "frelance", color: "blue" },
+            { hashtag: "idea", color: "green"}
+          ]
+        },
+        {
+          title:'Vision',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ',
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app5.png?alt=media&token=b4ac9f7c-66d3-4137-bb9f-05c547c4df38"}
+          ],
+          platforms: [
+            { name: "Android", icon: "assets/android_logo.png", url: "www.qwerty.com" },
+            { name: "iOS", icon: "assets/apple_logo.png", url: "www.qwerty.com" },
+            { name: "Web", icon: "assets/html_logo.png", url: "www.qwerty.com" },
+            { name: "Github", icon: "assets/github_logo.png", url: "www.qwerty.com" }
+          ],
+          hashtags: [
+            { hashtag: "idea", color: "red"},
+            { hashtag: "frelance", color: "blue" },
+            { hashtag: "idea", color: "green"}
+          ]
+        },
+        {
+          title:'Test',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ',
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app9.png?alt=media&token=91d10f31-d26a-47c5-8789-b36541543f2d"}
+          ],
+          platforms: [
+            { name: "Github", icon: "assets/github_logo.png", url: "www.qwerty.com" }
+          ],
+          hashtags: [
+            { hashtag: "test", color: "red"},
+            { hashtag: "work", color: "blue" },
+            { hashtag: "oportunity", color: "green"}
+          ]
         }
       ]
       

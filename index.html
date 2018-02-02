@@ -92,7 +92,7 @@
                 
                 <div class="carousel carousel-slider center" data-indicators="true">
                   <div class="carousel-item white-text" href="#one!" ng-repeat="image in work.images">
-                    <img class="activator" src="{{image.url}}">
+                    <img class="activator" ng-src="{{image.url}}">
                   </div>
                 </div>
 
@@ -107,7 +107,7 @@
                 <p>{{work.description}}</p>
 
                 <div class="chip" ng-repeat="platform in work.platforms">
-                  <img src="{{platform.icon}}" alt="android logo"> <a href="{{platform.url}}">{{platform.name}}</a> 
+                  <img ng-src="{{platform.icon}}" alt="android logo"> <a ng-href="{{platform.url}}">{{platform.name}}</a> 
                 </div>
                 
                 <div>
