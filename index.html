@@ -87,16 +87,38 @@
 
           <div class="four columns" ng-repeat="work in works"> 
             <div class="card">
+
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="{{work.image}}">
+                
+                <div class="carousel carousel-slider center" data-indicators="true">
+                  <div class="carousel-item white-text" href="#one!" ng-repeat="image in work.images">
+                    <img class="activator" src="{{image.url}}">
+                  </div>
+                </div>
+
               </div>
+
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">{{work.title}}<i class="material-icons right">more_vert</i></span>
               </div>
+
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">{{work.title}}<i class="material-icons right">close</i></span>
                 <p>{{work.description}}</p>
+
+                <div class="chip" ng-repeat="platform in work.platforms">
+                  <img src="{{platform.icon}}" alt="android logo"> <a href="{{platform.url}}">{{platform.name}}</a> 
+                </div>
+                
+                <div>
+                  <span ng-repeat="hashtag in work.hashtags">
+                      <span class="badge">{{hashtag.hashtag}}</span>
+                  </span>
+                  
+                </div>
+                
               </div>
+
             </div>
           </div>
         </div>      

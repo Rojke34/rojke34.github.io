@@ -57,9 +57,13 @@ jQuery(document).ready(function($) {
 	    }, 800, 'swing', function () {
 	        window.location.hash = target;
 	    });
-	});
+    });
+    
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
   
 });
 
 
 // TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
+
+

@@ -8034,7 +8034,7 @@ input[type=range]:focus::-ms-fill-upper {
   text-align: center;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -30px;
   margin: 0;
 }
 
@@ -8045,14 +8045,14 @@ input[type=range]:focus::-ms-fill-upper {
   height: 8px;
   width: 8px;
   margin: 24px 4px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(162, 162, 162, 0.5);
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .carousel .indicators .indicator-item.active {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .carousel.scrolling .carousel-item .materialboxed,
