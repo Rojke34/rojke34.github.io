@@ -21,7 +21,26 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "idea", color: "green"}
           ]
         },
-        
+        {
+          title:'Hidrix',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ',
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/caldas1.png?alt=media&token=76e55b8f-6fc6-4adf-84b1-50c6575c94b7"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/caldas2.png?alt=media&token=9f096ffc-608a-4031-85ef-6f165479dbda"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/caldas3.png?alt=media&token=fcce69a9-8486-451a-89aa-9aaa41315b8a"}
+          ],
+          platforms: [
+            { name: "Android", icon: "assets/android_logo.png", url: "www.qwerty.com" },
+            { name: "iOS", icon: "assets/apple_logo.png", url: "www.qwerty.com" },
+            { name: "Web", icon: "assets/html_logo.png", url: "www.qwerty.com" },
+            { name: "Github", icon: "assets/github_logo.png", url: "www.qwerty.com" }
+          ],
+          hashtags: [
+            { hashtag: "idea", color: "red"},
+            { hashtag: "frelance", color: "blue" },
+            { hashtag: "idea", color: "green"}
+          ]
+        }
       ]
       
     ];
