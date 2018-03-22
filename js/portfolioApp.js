@@ -119,7 +119,7 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
           ]
         },
         {
-          title:'Some Ideas',
+          title:'Ideas',
           description: 'They are ideas that I worked for a while ago, like Ping Pong Marker or app to follow your favorite brands and stay pending to a new offer or new product, pocket manager... and I used Firebase like backend in some cases.',
           images: [
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/app13.png?alt=media&token=aba009e4-c53d-44cc-bf5b-ecc6fc80a8e2"},
