@@ -82,7 +82,7 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
         },
         {
           title:'SSBCharacters Ban',
-          description: 'This one to supply a need, after lunchtime my corworkers and I played SSB 4, but the common issue was we all use the same character, now whit this creation each one get a random character and know it before starting, It was too funny when a player had a character like Jigglypuff, Olimar something similar. One day I wanted to add new functionality and thus create a tournament.',
+          description: 'This one to supply a need, after lunchtime my corworkers and I played SSB 4, but the common issue was we all use the same character, now whit this creation each one get a random character and know it before starting, It was too funny when a player had a character like Jigglypuff, Olimar something similar.',
           images: [
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/ssb41.png?alt=media&token=3dd08355-a99f-44b0-9ad1-037ec3cbfb71"},
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/ssb42.png?alt=media&token=c460d2d9-561d-46d9-bb2e-99287307fc9b"},
