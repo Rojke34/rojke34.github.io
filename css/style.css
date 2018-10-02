@@ -316,6 +316,9 @@ header {
 	background-color: #ffffff;
 	opacity: 1;
 	top: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: #e27053d1;
+    border-bottom-style: solid;
 }
 #qwe {
 	width: 100%;
