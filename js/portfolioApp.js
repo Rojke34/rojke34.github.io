@@ -4,7 +4,7 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
       [
         {
           title:'Appimotion',
-          description: "Appimotion is a digital platform to allow companies to contribute to the enviromente, earn points and exchange them for prizes. It's not cool no?",
+          description: "Appimotion is a digital platform to allow companies to contribute to the enviromente, earn points and exchange them for prizes. Is it not cool?",
           images: [
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/appimotion1.png?alt=media&token=42197740-64ef-42e6-9091-ffd2879ab7dd"},
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/appimotion2.png?alt=media&token=5277cac4-a883-4fa9-a921-358bbbf6a588"},
