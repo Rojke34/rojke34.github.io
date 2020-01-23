@@ -5,7 +5,7 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
       [
         {
           title:'Banconautas',
-          description: "Bancolombia for kids! awesome project using Cocos2d-x js version and ElectronJS only for desktop. (Using iPad mockup)",
+          description: "Bancolombia for kids! awesome project using Cocos2d-x js version and ElectronJS only for desktop. (Using iPhone mockup)",
           images: [
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Bancolombia%2FMockup-Generated-by-Dunnnk%20(1).jpg?alt=media&token=60cac23a-dd1c-456b-8381-88c9a326a6b1"},
             {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Bancolombia%2FMockup-Generated-by-Dunnnk%20(2).jpg?alt=media&token=1861df3f-9239-46ce-8416-1b013e7d05a2"},
@@ -45,10 +45,10 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
           title:'Appimotion',
           description: "Appimotion is a digital platform to allow companies to contribute to the enviromente, earn points and exchange them for prizes. Is it not cool?",
           images: [
-            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/appimotion1.png?alt=media&token=42197740-64ef-42e6-9091-ffd2879ab7dd"},
-            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/appimotion2.png?alt=media&token=5277cac4-a883-4fa9-a921-358bbbf6a588"},
-            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/appimotion4.png?alt=media&token=1181c1a4-db9d-4789-9eaf-6ea46fa45ab3"},
-            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/appimotion3.png?alt=media&token=312a1b28-a479-43f2-979e-e983641b5749"}
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Appimotion%2Fappi1.jpg?alt=media&token=49a15ee9-08c9-48e2-be2f-7c3ff4d74929"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Appimotion%2Fappi2.jpg?alt=media&token=bbe0bab1-4848-4f6e-8de1-7d263173031a"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Appimotion%2Fappi3.jpg?alt=media&token=5a2f55b4-cce9-4458-a35f-9bc59e8ad371"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Appimotion%2Fappi4.jpg?alt=media&token=8a399e7e-2781-41ec-a2e3-f171904d6588"}
           ],
           platforms: [
             { name: "iOS", icon: "assets/apple_logo.png", url: "https://itunes.apple.com/co/app/hidrix/id1321450235?l=en&mt=8" },
