@@ -1,7 +1,46 @@
 angular.module('portfolio', []).controller('PortfolioController', function() {
     var workList = this;
+
     workList.works = [
       [
+        {
+          title:'Banconautas',
+          description: "Bancolombia for kids! awesome project using Cocos2d-x js version and ElectronJS only for desktop. (Using iPad mockup)",
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Bancolombia%2FMockup-Generated-by-Dunnnk%20(1).jpg?alt=media&token=60cac23a-dd1c-456b-8381-88c9a326a6b1"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Bancolombia%2FMockup-Generated-by-Dunnnk%20(2).jpg?alt=media&token=1861df3f-9239-46ce-8416-1b013e7d05a2"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/Bancolombia%2FMockup-Generated-by-Dunnnk.jpg?alt=media&token=a9fe1f24-3964-4ea7-bd3a-e07b54df64fb"},
+          ],
+          platforms: [
+
+          ],
+          hashtags: [
+            { hashtag: "Work", color: "red"},
+            { hashtag: "Office", color: "blue" },
+            { hashtag: "Panter", color: "blue" },
+          ]
+        },
+        {
+          title:'Biblioteca Viva',
+          description: "A huge amount of minigames, it was cool worked on that because each one was different. About 37 minigames using Cocos2d-x JS version. But it isn't uptated yet (01/2020).",
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva0.jpg?alt=media&token=7580b621-4d7e-4ab8-b5cc-6844911466f4"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva1.jpg?alt=media&token=9376fc6f-8150-4644-9ce4-4d875bb95e4d"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva2.jpg?alt=media&token=5de5f96c-e073-4ec0-ad6b-7755e77a0e3d"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva3.jpg?alt=media&token=9d04181a-cce6-45fe-9e15-13c5c3cb136a"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva4.jpg?alt=media&token=d15148ed-6bbf-4ca0-b353-560f55fcb2f5"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva5.jpg?alt=media&token=01811f1f-1ee4-4f63-92b7-bdd9057c82fe"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/BibliotecaViva%2Fviva6.jpg?alt=media&token=f8ed6f55-6311-4d85-b6ce-4e4960fee343"}
+          ],
+          platforms: [
+            { name: "Web", icon: "assets/html_logo.png", url: "http://bibliotecaviva.co/" },
+          ],
+          hashtags: [
+            { hashtag: "Work", color: "red"},
+            { hashtag: "Office", color: "blue" },
+            { hashtag: "Panter", color: "blue" },
+          ]
+        },
         {
           title:'Appimotion',
           description: "Appimotion is a digital platform to allow companies to contribute to the enviromente, earn points and exchange them for prizes. Is it not cool?",
@@ -20,7 +59,9 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "Panter", color: "blue" },
             { hashtag: "iOS Swift", color: "blue" }
           ]
-        },
+        }
+      ],
+      [
         {
           title:'ForAnimals',
           description: "Just a little hobby, to teach children about the important is recycle and don't destroy animals' environment, the assets I got from Freepik. I'm not good at Illustration... 😅",
@@ -40,27 +81,25 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "Hobby", color: "blue" },
             { hashtag: "Passion", color: "green"}
           ]
-          },
-          {
-            title:'ConecTaT',
-            description: "That was a big app e-commerce, the interesting thing about is everything was made by code, I did not used the storyboard maybe isn't important but I liked it. It's not at the Apple Store why? 🤔",
-            images: [
-              {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/conectat1.png?alt=media&token=99efb136-4465-4063-b181-3e666e9db5f4"},
-              {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/conectat2.png?alt=media&token=ecbbc5b9-93d8-4c6f-8902-6537d5fd5967"},
-              {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/conectat3.png?alt=media&token=c80743c7-370e-48f9-9811-9f9c923979ee"}
-            ],
-            platforms: [
-              
-            ],
-            hashtags: [
-              { hashtag: "Work", color: "red"},
-              { hashtag: "Office", color: "blue" },
-              { hashtag: "Panter", color: "blue" },
-              { hashtag: "iOS Swift", color: "blue" }
-            ]
-          },
-      ],
-      [
+        },
+        {
+          title:'ConecTaT',
+          description: "That was a big app e-commerce, the interesting thing about is everything was made by code, I did not used the storyboard maybe isn't important but I liked it. It's not at the Apple Store why? 🤔",
+          images: [
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/conectat1.png?alt=media&token=99efb136-4465-4063-b181-3e666e9db5f4"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/conectat2.png?alt=media&token=ecbbc5b9-93d8-4c6f-8902-6537d5fd5967"},
+            {url: "https://firebasestorage.googleapis.com/v0/b/iosportfolio-42855.appspot.com/o/conectat3.png?alt=media&token=c80743c7-370e-48f9-9811-9f9c923979ee"}
+          ],
+          platforms: [
+            
+          ],
+          hashtags: [
+            { hashtag: "Work", color: "red"},
+            { hashtag: "Office", color: "blue" },
+            { hashtag: "Panter", color: "blue" },
+            { hashtag: "iOS Swift", color: "blue" }
+          ]
+        },
         {
           title:'Hidrix',
           description: 'That was my first project in which I use Cocos2d-x framework to build a semi game to teach children about hydrography, correct use of the water and other information in relation to it.',
@@ -79,7 +118,9 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "Office", color: "blue" },
             { hashtag: "Panter", color: "blue" }
           ]
-        },
+        }
+      ],
+      [
         {
           title:'SSBCharacters Ban',
           description: 'This one to supply a need, after lunchtime my corworkers and I played SSB 4, but the common issue was we all use the same character, now whit this creation each one get a random character and know it before starting, It was too funny when a player had a character like Jigglypuff, Olimar something similar.',
@@ -109,10 +150,7 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
           hashtags: [
             { hashtag: "Frelance", color: "blue" }
           ]
-        }
-      ],
-      [
-        
+        },
         {
           title:'Vision',
           description: "There were already certain things done and I finished it, Vision allow to customers access to services such as consult medical history, detect visual problems with the helps test visual acuity and Ishihara, and show them information important about medical treatments offers.",
@@ -125,7 +163,9 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
           hashtags: [
             { hashtag: "Frelance", color: "blue" }
           ]
-        },
+        }
+      ],
+      [
         {
           title:'iOS Dev Proposal',
           description: 'It was a simple test to get a job in Barranquilla, but I wanted to move to Medellín, Colombia. Time later I met a new co-worker from Venezuela who did the same test but for android.',
@@ -157,9 +197,7 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "#LetsBuildThatApp", color: "blue" },
             { hashtag: "Courses", color: "blue" },
           ]
-        }
-      ],
-      [
+        },
         {
           title:'Some Ideas',
           description: 'They were ideas I worked for a while ago, like Ping Pong Marker or app to follow your favorite brands and stay pending to a new offer or new product, pocket manager... and I used Firebase like backend in some cases.',
@@ -178,7 +216,9 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
             { hashtag: "Hobby", color: "blue"},
             { hashtag: "Passion", color: "green"}
           ]
-        },
+        }
+      ],
+      [
         {
           title:'Luyiman',
           description: 'When I was in Barranquilla, I worked in a company bought monthly mecatos (potato ship, ice cream, pringles...), all could not wait for the day of purchase because we were all anxious to going to the kitchen. Try to recreate something similar with an infinite runner. A good thing to remember ex coworkers.',
@@ -196,6 +236,10 @@ angular.module('portfolio', []).controller('PortfolioController', function() {
         }
       ]
       
+
+
+
+
     ];
 
   });
